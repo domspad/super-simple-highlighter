@@ -145,6 +145,7 @@ var _highlighter = {
                 }
 
                 wrap.appendChild(node);
+                wrap.setAttribute("tabindex","1");
 
                 // remove transparent style to fade to colour desired by class
 //                window.setTimeout(function(elem) {
